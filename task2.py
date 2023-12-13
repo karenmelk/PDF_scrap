@@ -2,7 +2,7 @@ import  regex_func # My written regex
 import fitz 
 
 main_pdf = 'test_task.pdf'
-your_pdf_for_compare = "test_task.pdf"
+your_pdf_for_compare = "path to your pdf for compare"
 # Read all pdf data function for get data from PDF,add them to list and return 
 def read_all_pdf_data(pdf_path):
     all_text = ""
